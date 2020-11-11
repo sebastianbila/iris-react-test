@@ -1,0 +1,13 @@
+@import "src/shared/styles/colors";
+
+.Button {
+  height: 50px;
+  display: flex;
+  background: $active;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
